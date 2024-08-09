@@ -1,0 +1,1426 @@
+/* ===== 02. Global Style ===== */
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 71px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: 959px;
+  }
+
+  h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 66px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 46px;
+  }
+
+  h2 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+
+  h3 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+
+  h5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  h6 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px 35px;
+  }
+
+  .h6-color {
+    padding-bottom: 15px;
+  }
+
+  .hover1 {
+    padding: 8px 30px;
+  }
+
+  .hover2 {
+    padding: 8px 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+
+  h2 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+
+  h5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  h6 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px 35px;
+  }
+
+  .hover1 {
+    padding: 7px 25px;
+  }
+
+  .hover2 {
+    padding: 7px 25px;
+  }
+}
+
+/* ===== End of 02. Global Style ===== */
+/* ========= 1.1. header section ========= */
+@media screen and (min-width: 991px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .open-aside {
+    display: block;
+    margin-right: 0px;
+  }
+
+  nav .white-btn {
+    display: none;
+  }
+
+  .join-btn {
+    display: none;
+  }
+
+  .side-nav-logo {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  aside .fa-xmark {
+    font-size: 20px;
+  }
+
+  .open-aside {
+    padding: 8px 10px;
+    margin-top: 15px;
+    font-size: 23px;
+  }
+}
+
+/* ========= End of 1.1. header section ========= */
+
+/* ========= 1.2 Hero section ========= */
+
+@media screen and (max-width: 1399px) {
+  .Hero .hero-text {
+    width: 70%;
+  }
+
+  .Hero .subsicons {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .Hero .social {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .hamburger-icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Hero .hero-text {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Hero .content {
+    padding: 5px;
+  }
+
+  .Hero .hero-text h1 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 66px;
+  }
+
+  .Hero .purple-btn a {
+    padding: 10px 15px;
+  }
+
+  .Hero .hero-text {
+    width: 100%;
+    margin-left: 0px;
+    padding: 100px 0px;
+  }
+
+  .Hero .social {
+    width: 90%;
+    margin-top: -15%;
+  }
+
+  .Hero .subsicons {
+    gap: 5px;
+  }
+}
+
+/* ========= 1.2 End of Hero section ========= */
+/* ========= 1.3 Experience section ========= */
+@media screen and (max-width: 991px) {
+  .Experience .community .main {
+    width: 100%;
+  }
+
+  .Experience .Ceo .purple-btn a {
+    padding: 15px 20px;
+  }
+
+  .Experience .Ceo img {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Experience {
+    padding: 50px 0px;
+  }
+
+  .Experience .position-relative {
+    width: 70%;
+    margin: 0px auto;
+  }
+
+  .Experience .Text {
+    width: 90%;
+    margin: 0px auto;
+  }
+
+  .Experience .position-absolute {
+    padding: 15px;
+    margin-right: 5px;
+    border-radius: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Experience .Text {
+    padding: 15px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Experience .position-relative {
+    width: 400px;
+  }
+
+  .Experience .flex-column {
+    padding-left: 1px;
+  }
+
+  .Experience .community .gap-md-3 .gap-2 {
+    margin-left: 0px;
+  }
+
+  .Experience .col-lg-6 .justify-content-between hr {
+    margin: 0px;
+  }
+
+  .Experience .Text {
+    width: 95%;
+    margin: 10px auto 0px;
+  }
+
+  .Experience .Ceo .gap-lg-3 {
+    flex-direction: row;
+  }
+
+  .Experience .Ceo {
+    flex-direction: column;
+  }
+
+  .Experience .Ceo .content {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+/* ========= 1.3 End of Experience section ========= */
+/* ========= 1.4 Upcoming section ========= */
+
+@media screen and (max-width: 1199px) {
+  .Upcoming .Music .d-flex .flex-column {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Upcoming .content .gap-3 {
+    flex-direction: column;
+  }
+
+  .Upcoming .content .green-btn {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Upcoming .content {
+    text-align: start;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Upcoming .Music .gap-md-3 {
+    flex-direction: column;
+  }
+
+  .Upcoming .Music .gap-3 {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Upcoming {
+    padding: 50px 0px;
+  }
+
+  .Upcoming .content {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+  }
+
+  .Upcoming .Music .gap-md-3 {
+    flex-direction: column-reverse;
+    align-items: start;
+  }
+
+  .Upcoming .d-flex {
+    align-items: start;
+  }
+
+  .Upcoming .Music .gap-3 {
+    align-items: start;
+    margin-top: 20px;
+  }
+
+  .Upcoming .time {
+    position: relative;
+    top: -45px;
+    left: 127px;
+  }
+
+  .Upcoming .d-flex .flex-column {
+    padding-bottom: 50px;
+    padding-left: 0px;
+  }
+
+  .Categories .Topics {
+    padding: 5px;
+  }
+}
+
+/* ========= 1.4 End of Upcoming section ========= */
+/* ========= 1.5 Categories section ========= */
+
+@media screen and (max-width: 1399px) {
+  .Categories {
+    margin-top: -200px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .Categories .col-md-7 {
+    padding-left: 240px;
+  }
+  .Categories .col-md-7 .content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Categories {
+    margin-top: -130px;
+  }
+
+  .Categories .row {
+    justify-content: center;
+  }
+
+  .Categories .col-md-7 {
+    padding-left: 150px;
+  }
+
+  .Categories .frame img {
+    display: none;
+  }
+
+  .Categories .col-lg-5 .flex-column {
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Categories .col-lg-5 .flex-column img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Categories .row .col-lg-5 {
+    justify-content: center;
+    gap: 0px;
+  }
+
+  .Categories .col-lg-7 {
+    text-align: center;
+    padding: 0px 70px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Categories .col-lg-7 {
+    padding: 0px 0px;
+    justify-content: center;
+  }
+
+  .Categories .col-lg-5 .flex-column img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .Categories .col-lg-7 {
+    padding: 20px 10px;
+  }
+
+  .Categories .Topics {
+    margin: 0px 0px;
+  }
+}
+
+/* ========= 1.5 End of Categories section ========= */
+/* ========= 1.6 Recent section ========= */
+@media screen and (max-width: 1399px) {
+  .Recent .bg {
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Recent .row {
+    margin: auto;
+  }
+
+  .Recent .container .p-2 {
+    width: 90%;
+  }
+
+  .Recent .text-btn {
+    padding: 20px 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Recent .row {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    width: 90%;
+    margin: -80px auto;
+  }
+
+  .Recent .col-md-4 img {
+    display: none;
+  }
+
+  .Recent .content {
+    gap: 25%;
+  }
+
+  .Recent .text-btn {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Recent .container {
+    padding: 50px 0px;
+  }
+
+  .Recent .row {
+    padding: 30px 0px;
+  }
+
+  .Recent .container .p-2 {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .Recent .text-btn {
+    margin-top: 50px;
+  }
+}
+
+/* ========= 1.6 End of Recent section ========= */
+/* ========= 1.7 Choose section ========= */
+@media screen and (max-width: 1399px) {
+  .Choose {
+    padding: 50px 0px 20px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .Choose .col-md-12 div {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Choose .container .p-2 {
+    width: 90%;
+  }
+
+  .Choose .col-lg-4 .bg {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 40%;
+  }
+
+  .Choose .col-md-12 .left {
+    margin-left: 0px;
+  }
+
+  .Choose .col-md-12 .right {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Choose .col-lg-4 .bg {
+    width: 100%;
+    margin-top: 70px;
+  }
+
+  .Choose .container .p-2 {
+    width: 100%;
+    margin: auto;
+  }
+
+  .Choose .row {
+    padding: 0px;
+    margin: 0px 0px;
+  }
+}
+
+/* ========= 1.7 End of Choose section ========= */
+/* ========= 1.8 Exclusive section ========= */
+@media screen and (max-width: 1199px) {
+  .Exclusive .position-relative img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Exclusive {
+    padding: 10px;
+  }
+
+  .Exclusive .content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Exclusive .position-relative img {
+    position: static !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Exclusive .content .gap-lg-3 {
+    flex-direction: column;
+  }
+
+  .Exclusive .row {
+    padding: 0px 35px;
+  }
+}
+
+/* ========= 1.8 End of Exclusive section ========= */
+/* ========= 1.9 Guest section ========= */
+@media screen and (max-width: 3199px) {
+  .Guest .content {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .Guest .col-lg-6 {
+    gap: 10px;
+  }
+
+  .Guest .content {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Guest .content {
+    padding: 50px;
+    text-align: start;
+  }
+
+  .Guest .content {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Guest .content h6 {
+    width: 100%;
+  }
+
+  .Guest .content p {
+    width: 100%;
+  }
+
+  .Guest .content {
+    padding: 30px;
+  }
+
+  .Guest .align-items-center {
+    flex-direction: column;
+  }
+}
+
+/* ========= 1.9 End of Guest section ========= */
+/* ========= 1.10 Team section ========= */
+@media screen and (max-width: 991px) {
+  .Team .pb-3 {
+    width: 90%;
+  }
+}
+
+/* ========= 1.10 End of Team section ========= */
+/* ========= 1.11 Team section ========= */
+@media screen and (max-width: 991px) {
+  .Team {
+    padding: 0px 0px 100px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Team .pb-3 {
+    width: 95%;
+    margin: auto;
+  }
+
+  .Team .py-2 {
+    width: 100%;
+  }
+
+  .Team .team-card .d-flex i {
+    height: 45px;
+    width: 45px;
+    font-size: 25px;
+  }
+
+  .Team {
+    padding: 0px 0px 50px;
+  }
+}
+
+/* ========= 1.11 End of Team section ========= */
+/* ========= 1.12 Review section ========= */
+
+@media (max-width: 1199px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Review .content {
+    width: 100%;
+  }
+
+  .Review .gradient-lines img {
+    display: none;
+  }
+
+  .Review .content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Review .main-img {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Review {
+    padding: 50px 0px;
+  }
+
+  .Review .main-img {
+    gap: 0px;
+  }
+}
+
+/* ========= 1.12 End of Review section ========= */
+
+/* ========= 1.13 Numbers section ========= */
+
+@media screen and (max-width: 1199px) {
+  .Numbers .content {
+    padding-left: 0px;
+    padding-right: 43px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Numbers {
+    margin-top: 50px;
+    padding-top: 0px;
+  }
+
+  .Numbers .content {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .Numbers .row {
+    margin: auto;
+  }
+
+  .Numbers .col-lg-5 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Numbers .mic-bg {
+    padding: 0px 0px 50px;
+  }
+
+  .Numbers .content {
+    margin-bottom: 10px;
+  }
+
+  .Numbers .content .gap-lg-3 {
+    flex-direction: column;
+  }
+
+  .Numbers .purple-btn a {
+    width: 175px;
+  }
+}
+
+/* ========= 1.13 End of Numbers section ========= */
+/* ========= 1.14 Events section ========= */
+@media screen and (max-width: 1199px) {
+  .Events .bg-content-2 {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Events .col-lg-5 {
+    margin: 20px 0px;
+    gap: 20px;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .Events .row {
+    padding: 20px 5px;
+    top: 0px;
+  }
+
+  .Events .content .p-2 {
+    width: 100%;
+  }
+
+  .Events .col-lg-5 {
+    flex-direction: column;
+  }
+
+  .Events .bg-content {
+    padding: 200px 30px 30px;
+  }
+
+  .Events .bg-content-2 {
+    padding: 40px 30px 30px;
+  }
+}
+
+/* ========= 1.14 End of Events section ========= */
+/* ========= 1.15 Subscribe section ========= */
+@media screen and (max-width: 480px) {
+  .Subscribe-2 {
+    padding: 0px 0px;
+    margin: 50px 0px 0px;
+  }
+}
+
+/* ========= 1.15 End of Subscribe section ========= */
+/* ========= 1.16 Footer section ========= */
+@media screen and (max-width: 991px) {
+  .Footer .col-lg-4 {
+    align-items: center;
+    text-align: center;
+  }
+
+  .Footer .col-lg-4 .gap-md-3 {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Footer {
+    padding: 2px;
+  }
+
+  .Footer .col-lg-8 ul {
+    margin: 0px 0px;
+  }
+}
+
+/* ========= 1.16 End of Footer section ========= */
+
+/* ========= 2.1 Hero section ========= */
+
+@media screen and (max-width: 480px) {
+  .About-us-hero .hero-text {
+    padding: 40px 0px 30px;
+  }
+}
+
+/* ========= 2.1 End of Hero section ========= */
+/* ========= 2.2 Focus section ========= */
+@media screen and (max-width: 1199px) {
+  .Focus {
+    padding: 100px 0px 120px;
+  }
+  .Focus .main-img {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Focus .main-img {
+    position: static;
+  }
+
+  .Focus .content {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Focus {
+    padding: 50px 0px;
+  }
+
+  .Focus .gradient-lines img {
+    display: none;
+  }
+
+  .Focus .main-img {
+    gap: 0px;
+  }
+
+  .Focus .Topics {
+    flex-direction: column;
+  }
+}
+
+/* ========= 2.2 End of Focus section ========= */
+/* ========= 2.3 Numbers-2 section ========= */
+
+@media screen and (max-width: 1199px) {
+  .Numbers-2 .content {
+    padding-left: 0px;
+    padding-right: 43px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Numbers-2 {
+    margin-top: 50px;
+    padding-top: 0px;
+  }
+
+  .Numbers-2 .content {
+    padding-left: 10px;
+  }
+
+  .Numbers-2 .row {
+    margin: auto;
+  }
+
+  .Numbers-2 .col-lg-5 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Numbers-2 .mic-bg {
+    padding: 0px 0px;
+  }
+
+  .Numbers-2 .content {
+    margin-bottom: 10px;
+  }
+
+  .Numbers-2 .content .gap-lg-3 {
+    flex-direction: column;
+  }
+
+  .Numbers-2 .purple-btn a {
+    width: 175px;
+  }
+}
+
+/* ========= 2.3 End of Numbers-2 section ========= */
+/* ========= 2.4 Sponsors section ========= */
+@media screen and (max-width: 1399px) {
+  .Sponsors {
+    margin-bottom: 0px;
+  }
+}
+
+/* ========= 2.4 End of Sponsors section ========= */
+/* ========= 2.5 Subscribe-2 section ========= */
+@media screen and (max-width: 991px) {
+  .Subscribe-2 {
+    margin: 100px 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Subscribe-2 {
+    margin: 50px 0px;
+  }
+}
+
+/* ========= 2.5 End of Subscribe-2 section ========= */
+
+/* ========= 3.1 Upcoming-2 section ========= */
+@media screen and (max-width: 991px) {
+  .Upcoming-2 .video {
+    width: 80%;
+  }
+
+  .Upcoming-2 .content {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Upcoming-2 .gap-md-3 {
+    flex-direction: column;
+  }
+
+  .Upcoming-2 .gap-3 {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Upcoming-2 .main-bg {
+    margin: 10px 0px 30px;
+  }
+
+  .Upcoming-2 .row {
+    margin: 5px 0px;
+  }
+
+  .Upcoming-2 .video {
+    width: 90%;
+    border: 20px solid #0c213f;
+  }
+
+  .Upcoming-2 .hidden {
+    display: block;
+  }
+
+  .Upcoming-2 .d-flex {
+    align-items: start;
+  }
+
+  .Upcoming-2 .gap-4 {
+    flex-direction: column;
+  }
+
+  .Upcoming-2 .gap-4 {
+    align-items: center;
+  }
+
+  .Upcoming-2 .time {
+    position: relative;
+    top: -45px;
+    left: 117px;
+  }
+
+  .Upcoming-2 .gap-md-3 {
+    flex-direction: column-reverse;
+    margin-top: 30px;
+  }
+
+  .Upcoming-2 .d-flex .flex-column {
+    padding-bottom: 50px;
+    padding-left: 0px;
+  }
+}
+
+/* ========= 3.1 End of Upcoming-2 section ========= */
+/* ========= 3.2 Categories-2 section ========= */
+@media screen and (max-width: 480px) {
+  .Categories-2 .content .text-center {
+    width: 98%;
+  }
+
+  .Categories-2 .Topics {
+    margin: 0px 0px;
+    padding: 5px 0px;
+  }
+}
+
+/* ========= 3.2 End of Categories-2 section ========= */
+/* ========= 3.3 Exclusive-2 section ========= */
+@media screen and (max-width: 1399px) {
+  .Exclusive-2 {
+    padding: 50px 0px 20px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .Exclusive-2 {
+    padding: 30px 0px 20px;
+  }
+  .Exclusive-2 .position-relative img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Exclusive-2 {
+    padding: 10px;
+  }
+
+  .Exclusive-2 .content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Exclusive-2 .position-relative img {
+    position: static !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Exclusive-2 .content .gap-lg-3 {
+    flex-direction: column;
+  }
+
+  .Exclusive-2 .row {
+    padding: 0px 35px;
+  }
+}
+
+/* ========= 3.3 End of Exclusive-2 section ========= */
+/* ========= 3.4 Sponsors-2 section ========= */
+@media screen and (max-width: 480px) {
+  .Sponsors-2 {
+    padding: 50px 0px 50px;
+  }
+}
+
+/* ========= 3.4 End of Sponsors-2 section ========= */
+/* ========= 3.5 Footer-2 section ========= */
+@media screen and (max-width: 991px) {
+  .Footer-2 {
+    margin-top: 50px;
+  }
+
+  .Footer-2 .col-lg-4 {
+    align-items: center;
+    text-align: center;
+  }
+
+  .Footer-2 .col-lg-4 .gap-md-3 {
+    justify-content: center;
+  }
+}
+
+/* ========= 3.5 End of Footer section ========= */
+
+/* ========= 4.3 Team section ========= */
+@media screen and (max-width: 480px) {
+  .Hosts {
+    margin: 50px 0px;
+  }
+}
+
+/* ========= 4.3 End of Team section ========= */
+
+/* ========= 4.4 Podcaster section ========= */
+
+@media screen and (max-width: 1399px) {
+  .Podcaster .row .col-md-4 img {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .Podcaster .row .col-md-7 {
+    margin-left: -15px;
+  }
+
+  .Podcaster .row .col-md-4 img {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Podcaster .row .col-md-7 {
+    width: 500px;
+    margin-left: 0px;
+  }
+  .Podcaster .row .col-md-4 img {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Podcaster .row .col-md-7 {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Podcaster .row .col-md-7 {
+    padding: 5px;
+    width: 98%;
+  }
+}
+
+/* ========= 4.4 End of Podcaster section ========= */
+
+/* ========= 5.2 Pricing section ========= */
+@media screen and (max-width: 1399px) {
+  .Pricing .row .col-md-3 .d-flex {
+    padding: 20px 20px 0px;
+  }
+
+  .Pricing .row .col-md-3 .content {
+    padding: 20px 20px 50px;
+  }
+
+  .Pricing .row .col-md-3 {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Pricing .row .col-md-3 {
+    width: 245px;
+  }
+
+  .Pricing .row {
+    gap: 7px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Pricing .row .col-md-3 {
+    width: 450px;
+    margin: 20px 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Pricing-hero .hero-text {
+    margin: 50px 0px 30px;
+    padding: 30px 0px 0px;
+  }
+
+  .Pricing .row .col-md-3 {
+    width: 350px;
+  }
+}
+
+/* ========= 5.2 End of Pricing section ========= */
+
+/* ========= 6.1 Form section ========= */
+@media screen and (max-width: 767px) {
+  .Form-section .row {
+    gap: 50px;
+  }
+
+  .Form-section .row .col-md-6 {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Form-section .row .col-md-6 .content {
+    padding-left: 0px;
+    width: 95%;
+  }
+}
+
+/* ========= 6.1 End of Form section ========= */
+
+/* ========= 7.2 Testimonials section ========= */
+@media screen and (max-width: 1399px) {
+  .Testimonials .col-lg-7 .card {
+    padding: 35px 15px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .Testimonials .col-lg-5 .justify-content-end img {
+    width: 76%;
+    object-position: right;
+  }
+  .Testimonials .col-lg-7 .card p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .Testimonials .col-lg-5 .justify-content-end img {
+    width: 100%;
+    object-position: center;
+  }
+  .Testimonials .col-lg-5 .d-flex {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .Testimonials .col-lg-5 {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .Testimonials .col-lg-7 .d-flex {
+    flex-direction: column;
+  }
+  .Testimonials .col-lg-5 .justify-content-end img:nth-child(2) {
+    display: none;
+  }
+}
+/* ========= 7.2 End of Testimonials section ========= */
+
+/* ========= 8.2 Accordion section ========= */
+@media screen and (max-width: 480px) {
+  .Accordion-main .text-center {
+    width: 98%;
+  }
+
+  .Accordion-main .accordion-body {
+    padding: 10px 5px 10px 20px;
+  }
+
+  .Accordion-main .accordion-button:not(.collapsed) {
+    gap: 15px;
+  }
+
+  .Accordion-main .accordion {
+    width: 95%;
+    padding: 30px 0px;
+  }
+
+  .Accordion-main .accordion-div {
+    padding: 10px 40px;
+  }
+}
+
+/* ========= 8.2 End of Accordion section ========= */
+
+/* ========= 9.1 Spotlight section ========= */
+@media screen and (max-width: 480px) {
+  .Spotlight {
+    padding: 50px 0px;
+  }
+
+  .Spotlight .row .col:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .Spotlight .align-items-center {
+    flex-direction: column;
+  }
+
+  .Spotlight .align-items-center .pink-btn a {
+    padding: 10px 74px;
+  }
+
+  .Spotlight .d-flex .mini-card {
+    flex-direction: column;
+    width: auto;
+  }
+}
+
+/* ========= 9.1 End of Spotlight section ========= */
+
+/* ========= 10.1 Coming soon section ========= */
+@media screen and (max-width: 480px) {
+  .Coming-soon {
+    padding: 2px;
+  }
+
+  .Coming-soon .d-flex {
+    padding-bottom: 200px;
+    width: 85%;
+  }
+
+  .Coming-soon .content .subscription div {
+    gap: 15px;
+  }
+
+  .Coming-soon .content p {
+    width: 90%;
+  }
+}
+
+/* ========= 10.1 End of Coming soon section ========= */
+
+/* ========= 11.1 Error section ========= */
+@media screen and (max-width: 425px) {
+  .Error {
+    padding: 2px;
+  }
+
+  .Error .d-flex {
+    padding-bottom: 200px;
+  }
+
+  .Error .content .subscription div {
+    gap: 15px;
+  }
+
+  .Error .content p {
+    width: 90%;
+  }
+}
+
+/* ========= 11.1 End of Error section ========= */

@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vamcaster - Podcast Video Streaming HTML Template</title>
+    <!-- favicon  -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/fav-icon.svg"
+      type="image/x-icon"
+    />
+    <!-- faremwork of css -->
+    <link rel="stylesheet" href="assets/css/bootstrap-lib/bootstrap.min.css" />
+    <!-- style sheet of css -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Responsive sheet of css -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- fonts awsome icon link  -->
+    <link rel="stylesheet" href="assets/font-awesome-lib/icon/all.min.css" />
+    <!-- slick-slider link css -->
+    <link rel="stylesheet" href="assets/css/slick.min.css" />
+    <!-- animation of css -->
+    <link rel="stylesheet" href="assets/css/aos.css" />
+  </head>
+
+  <body>
+    <div class="site-wrapper">
+      <!-- ======== 1.1 Header section ======== -->
+      <header>
+        <nav class="container navbar navbar-expand-lg">
+          <div class="container">
+            <!-- site logo -->
+            <a class="nav-logo p-0" href="index.html">
+              <figure><img src="assets/images/logo.svg" alt="Logo" /></figure>
+            </a>
+            <!-- navigation button  -->
+            <button class="open-aside" onclick="open_aside()" type="button">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <!-- navigation bar manu  -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul
+                class="navbar-nav d-flex justify-content-center align-items-center gap-lg-4 gap-md-2 gap-sm-2 gap-2 mb-2 mb-lg-0"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="latest-podcasts.html">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about-us.html">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="faq.html">Faq</a>
+                </li>
+                <li class="dropdown p-1">
+                  <a class="nav-link" href="#"
+                    >Pages <i class="fa-sharp fa-solid fa-sort-down"></i
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="blog.html">Our Blog</a>
+                    </li>
+                    <li><a class="dropdown-item" href="team.html">Team</a></li>
+                    <li>
+                      <a class="dropdown-item" href="testimonials.html"
+                        >Testimonials</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="contact-us.html"
+                        >Contact</a
+                      >
+                    </li>
+                    <li><a class="dropdown-item" href="404.html">404</a></li>
+                    <li>
+                      <a class="dropdown-item" href="coming-soon.html"
+                        >Coming Soon</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="white-btn pt-3">
+              <a href="#">Join us today<span></span></a>
+            </div>
+          </div>
+        </nav>
+        <!--===== aside navigation slidebar =====-->
+        <aside>
+          <div id="mySidenav" class="left-sidebar">
+            <div
+              class="side-nav-logo d-flex justify-content-between align-items-center ps-2 pe-1 nav-logo"
+            >
+              <figure>
+                <a href="index.html"
+                  ><img src="assets/images/logo.svg" alt="Logo"
+                /></a>
+              </figure>
+              <button
+                class="fa-solid fa-xmark"
+                onclick="close_aside()"
+              ></button>
+            </div>
+            <ul class="mt-2">
+              <li class="nav-item">
+                <a aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a aria-current="page" href="latest-podcasts.html">Features</a>
+              </li>
+              <li class="nav-item">
+                <a href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a href="about-us.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a href="faq.html">Faq</a>
+              </li>
+              <li class="nav-item">
+                <div
+                  class="d-flex align-items-center justify-content-between"
+                  id="slid-btn"
+                >
+                  <button class="a-slid page-btn">Pages</button>
+                  <i class="fa-solid fa-caret-down pe-2"></i>
+                </div>
+                <ul id="slid-drop">
+                  <li><a href="blog.html">Our Blog</a></li>
+                  <li><a href="team.html">Team</a></li>
+                  <li><a href="testimonials.html">Testimonials</a></li>
+                  <li><a href="contact-us.html">Contact</a></li>
+                  <li><a href="404.html">404</a></li>
+                  <li><a href="coming-soon.html">Coming Soon</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </aside>
+        <!--===== aside navigation slidebar =====-->
+      </header>
+      <!-- ======== End of 1.1 Header section ========  -->
+      <!-- ======== 1.2 Hero section ========  -->
+      <section class="Hero">
+        <div class="content">
+          <div class="container">
+            <div class="hero-text">
+              <h3 class="my-3">Your All In One</h3>
+              <h1>FM & <span class="gradient px-2"> PODCAST </span> STATION</h1>
+              <p class="my-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s.
+              </p>
+              <div class="purple-btn py-4">
+                <a href="#">Find out more<span></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center social">
+          <div
+            class="d-flex flex-lg-row flex-column justify-content-center align-items-center gap-3"
+          >
+            <h4>Subscribe On Your Favourite Platforms:</h4>
+            <div class="subsicons">
+              <a href="#">
+                <img src="assets/images/icon/podcast.svg" alt="podcast" />
+              </a>
+              <a href="#">
+                <img src="assets/images/icon/apple.svg" alt="apple" />
+              </a>
+              <a href="#">
+                <img
+                  src="assets/images/icon/soundcloud.svg"
+                  alt="sound cloud"
+                />
+              </a>
+              <a href="#">
+                <img src="assets/images/icon/spotify.svg" alt="spotify" />
+              </a>
+              <a href="#">
+                <img src="assets/images/icon/youtube.svg" alt="youtube" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======== 1.2 End of Hero section ========  -->
+      <!-- ======== 1.3 Experience section ========  -->
+      <section class="Experience">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 position-relative">
+              <div>
+                <img src="assets/images/index/exp-img.webp" alt="user" />
+              </div>
+              <div>
+                <div class="position-absolute">
+                  <div class="d-flex">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <h2><span class="counter" data-target="10">0</span>M+</h2>
+                  <p>Subscribers over the world</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 Text">
+              <div class="d-flex flex-column gap-md-4">
+                <h2>EXPERIENCE THE JOY OF PODCASTING</h2>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+                <div class="d-flex flex-lg-row flex-column gap-3 community">
+                  <div
+                    class="main d-flex flex-column gap-md-3 gap-2 justify-content-between"
+                  >
+                    <div class="d-flex gap-2">
+                      <div>
+                        <img src="assets/images/icon/sound.svg" alt="sound" />
+                      </div>
+                      <div class="d-flex flex-column align-start gap-1">
+                        <h4>Empower listeners</h4>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipiscing
+                          elit.
+                        </p>
+                      </div>
+                    </div>
+                    <hr />
+                  </div>
+                  <div
+                    class="main d-flex flex-column gap-md-3 gap-2 justify-content-between"
+                  >
+                    <div class="d-flex gap-2">
+                      <div>
+                        <img src="assets/images/icon/3-User.svg" alt="user" />
+                      </div>
+                      <div class="d-flex flex-column align-start gap-1">
+                        <h4>Build community</h4>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipiscing
+                          elit.
+                        </p>
+                      </div>
+                    </div>
+                    <hr />
+                  </div>
+                </div>
+                <div class="Ceo">
+                  <img src="assets/images/index/ceo.webp" alt="ceo" />
+                  <div class="content">
+                    <h4>Olivier Pieters</h4>
+                    <p>CEO and Podcaster</p>
+                  </div>
+                  <div class="purple-btn">
+                    <a href="#">Find out more<span></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======== 1.3 End of Experience section ========  -->
+      <!-- ======== 1.4 Upcoming section ========  -->
+      <section class="Upcoming">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="content">
+                <h2>UPCOMING PODCASTS</h2>
+                <p class="py-4">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+                <div class="d-flex gap-3">
+                  <div class="d-flex purple-btn-2">
+                    <a href="#">Join exclusive club<span></span></a>
+                  </div>
+                  <div class="d-flex green-btn">
+                    <a href="#"
+                      ><i class="fa-solid fa-volume-low"></i> &nbsp; Start
+                      listening <span></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="Music">
+                <div class="d-flex gap-md-3 gap-2">
+                  <div><span class="time">08:45 pm</span></div>
+                  <div class="d-flex gap-3">
+                    <div class="gradient">
+                      <img src="assets/images/icon/waves.svg" alt="waves" />
+                    </div>
+                    <div class="d-flex flex-column gap-2">
+                      <h4>The Power of Storytelling</h4>
+                      <p>Speaker: John Smith</p>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="d-flex gap-md-3 gap-2">
+                  <div><span class="time">08:45 pm</span></div>
+                  <div class="d-flex gap-3">
+                    <div class="gradient">
+                      <img src="assets/images/icon/waves.svg" alt="waves" />
+                    </div>
+                    <div class="d-flex flex-column gap-2">
+                      <h4>The Power of Storytelling</h4>
+                      <p>Speaker: John Smith</p>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="d-flex gap-md-3 gap-2">
+                  <div><span class="time">08:45 pm</span></div>
+                  <div class="d-flex gap-3">
+                    <div class="gradient">
+                      <img src="assets/images/icon/waves.svg" alt="waves" />
+                    </div>
+                    <div class="d-flex flex-column gap-2">
+                      <h4>The Power of Storytelling</h4>
+                      <p>Speaker: John Smith</p>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <div class="d-flex gap-md-3 gap-2">
+                  <div><span class="time">08:45 pm</span></div>
+                  <div class="d-flex gap-3">
+                    <div class="gradient">
+                      <img src="assets/images/icon/waves.svg" alt="waves" />
+                    </div>
+                    <div class="d-flex flex-column gap-2">
+                      <h4>The Power of Storytelling</h4>
+                      <p>Speaker: John Smith</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======== 1.4 End of Upcoming section ========  -->
+      <!-- ======== 1.5 Categories section ========  -->
+      <section class="Categories">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-md-3">
+              <div class="d-flex flex-column">
+                <img
+                  src="assets/images/index/category-img1.webp"
+                  alt="Category1"
+                />
+                <img
+                  src="assets/images/index/category-img2.webp"
+                  alt="Category2"
+                />
+              </div>
+              <div class="frame">
+                <img src="assets/images/bg/gradient-lines.webp" alt="style" />
+              </div>
+            </div>
+            <div class="col-lg-7 col-md-7">
+              <div class="d-flex flex-column gap-2 content">
+                <h2>EXPLORE THE BEST TOPICS FOR PODCASTING</h2>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="Topics">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 d-flex">
+                <div
+                  class="d-flex flex-column justify-content-between align-items-center gap-md-3 gap-2"
+                >
+                  <div>
+                    <img src="assets/images/icon/drum.svg" alt="drum" />
+                  </div>
+                  <div>
+                    <h4>Art & Music</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt.
+                    </p>
+                  </div>
+                  <div class="d-flex text-btn">
+                    <a href="#"
+                      >Find out more <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 d-flex">
+                <div
+                  class="d-flex flex-column justify-content-between align-items-center gap-md-3 gap-2"
+                >
+                  <div>
+                    <img src="assets/images/icon/laptop.svg" alt="laptop" />
+                  </div>
+                  <div>
+                    <h4>Technology</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt.
+                    </p>
+                  </div>
+                  <div class="d-flex text-btn">
+                    <a href="#"
+                      >Find out more <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 d-flex">
+                <div
+                  class="d-flex flex-column justify-content-between align-items-center gap-md-3 gap-2"
+                >
+                  <div>
+                    <img src="assets/images/icon/face.svg" alt="face" />
+                  </div>
+                  <div>
+                    <h4>Comedy</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt.
+                    </p>
+                  </div>
+                  <div class="d-flex text-btn">
+                    <a href="#"
+                      >Find out more <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 d-flex">
+                <div
+                  class="d-flex flex-column justify-content-between align-items-center gap-md-3 gap-2"
+                >
+                  <div>
+                    <img src="assets/images/icon/note.svg" alt="note" />
+                  </div>
+                  <div>
+                    <h4>Education</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt.
+                    </p>
+                  </div>
+                  <div class="d-flex text-btn">
+                    <a href="#"
+                      >Find out more <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 d-flex">
+                <div
+                  class="d-flex flex-column justify-content-between align-items-center gap-md-3 gap-2"
+                >
+                  <div>
+                    <img src="assets/images/icon/drink.svg" alt="drink" />
+                  </div>
+                  <div>
+                    <h4>Health & Fitness</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt.
+                    </p>
+                  </div>
+                  <div class="d-flex text-btn">
+                    <a href="#"
+                      >Find out more <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 d-flex">
+                <div
+                  class="d-flex flex-column justify-content-between align-items-center gap-md-3 gap-2"
+                >
+                  <div>
+                    <img src="assets/images/icon/archery.svg" alt="archery" />
+                  </div>
+                  <div>
+                    <h4>Business Motivations</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt.
+                    </p>
+                  </div>
+                  <div class="d-flex text-btn">
+                    <a href="#"
+                      >Find out more <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======== 1.5 End of Categories section ========  -->
+      <!-- ======== 1.6 Recent section ========  -->
+      <section class="Recent">
+        <div class="container">
+          <div class="mb-2">
+            <h2>SOME RECENT HIT PODCASTS</h2>
+            <p class="p-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Faucibus scelerisque eleifend donec.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-lg-2 col-md-4">
+              <div>
+                <img
+                  src="assets/images/bg/single-gradient-line.webp"
+                  alt="gradientlines"
+                />
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="bg">
+                <img src="assets/images/index/recent-1.webp" alt="recent1" />
+                <div class="content">
+                  <a class="play-btn" href="#"
+                    ><i class="fa-solid fa-circle-play display-4"></i
+                  ></a>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="bg">
+                <img src="assets/images/index/recent-2.webp" alt="recent2" />
+                <div class="content">
+                  <a class="play-btn" href="#"
+                    ><i class="fa-solid fa-circle-play display-4"></i
+                  ></a>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="bg">
+                <img src="assets/images/index/recent-3.webp" alt="recent3" />
+                <div class="content">
+                  <a class="play-btn" href="#"
+                    ><i class="fa-solid fa-circle-play display-4"></i
+                  ></a>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center text-btn">
+            <a href="#"
+              >Find out more <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <!-- ======== 1.6 End of Recent section ========  -->
+      <!-- ======== 1.7 Choose section ========  -->
+      <section class="Choose">
+        <div class="container">
+          <h2>WHY CHOOSE US</h2>
+          <p class="p-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus
+            scelerisque eleifend donec pretium.
+          </p>
+          <div class="row">
+            <div class="col-lg-4 col-md-12">
+              <div>
+                <i class="fa-regular fa-square-check"></i>
+                <h4>Popular Topics</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut.
+                </p>
+              </div>
+              <div class="left">
+                <i class="fa-regular fa-square-check"></i>
+                <h4>Top Podcasters</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut.
+                </p>
+              </div>
+              <div>
+                <i class="fa-regular fa-square-check"></i>
+                <h4>Global Recognition</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="bg">
+                <img src="assets/images/bg/circle.webp" alt="circle" />
+                <div class="Mic">
+                  <img src="assets/images/bg/mic.webp" alt="mic" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 Light">
+              <div>
+                <i class="fa-regular fa-square-check"></i>
+                <h4>Popular Topics</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut.
+                </p>
+              </div>
+              <div class="right">
+                <i class="fa-regular fa-square-check"></i>
+                <h4>Top Podcasters</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut.
+                </p>
+              </div>
+              <div>
+                <i class="fa-regular fa-square-check"></i>
+                <h4>Global Recognition</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======== 1.7 End of Choose section ========  -->
+      <!-- ======== 1.8 Exclusive section ========  -->
+      <section class="Exclusive">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="content">
+                <h2>JOIN OUR EXCLUSIVE CLUB</h2>
+                <h6>AMPLIFY YOUR AUDIO EXPERIENCE</h6>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut.
+                </p>
+                <div class="d-flex gap-lg-3 gap-2">
+                  <div class="d-flex white-btn">
+                    <a href="#">Join us today<span></span></a>
+                  </div>
+                  <div class="d-flex dark-btn">
+                    <a href="#">View Pricing<span></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="position-relative">
+                <img src="assets/images/bg/girl.webp" alt="listening" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======== 1.8 End of Exclusive section ========  -->
+      <!-- ======== 1.9 Guest section ========  -->
+      <section class="Guest">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 d-flex">
+              <div class="d-flex flex-column">
+                <div>
+                  <img src="assets/images/index/guest5.webp" alt="guest" />
+                </div>
+                <div>
+                  <img src="assets/images/index/guest4.webp" alt="guest" />
+                </div>
+              </div>
+              <div class="d-flex flex-column">
+                <div>
+                  <img src="assets/images/index/guest3.webp" alt="guest" />
+                </div>
+                <div>
+                  <img
+                    src="assets/images/bg/gradient-circle.webp"
+                    alt="gradient-circle"
+                  />
+                </div>
+              </div>
+              <div class="d-flex flex-column">
+                <div>
+                  <img src="assets/images/index/guest2.webp" alt="guest" />
+                </div>
+                <div>
+                  <img src="assets/images/index/guest1.webp" alt="guest" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 content">
+              <h2>BECOME A GUEST</h2>
+              <h6>SHARE YOUR STORY TO INSPIRE THE WORLD</h6>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Sapien nec sagittis aliquam malesuada.
+              </p>
+              <div class="cards">
+                <div>
+                  <i class="fa-regular fa-square-check"></i>
+                  <h4>Send us your amazing topic</h4>
+                </div>
+                <div>
+                  <i class="fa-regular fa-square-check"></i>
+                  <h4>Review by expert</h4>
+                </div>
+                <div>
+                  <i class="fa-regular fa-square-check"></i>
+                  <h4>Come to studio for podcast</h4>
+                </div>
+              </div>
+              <div
+                class="d-flex gap-4 justify-content-center align-items-center"
+              >
+                <div class="d-flex pink-btn">
+                  <a href="#"
+                    ><i class="fa-solid fa-pen"></i> &nbsp; Register Now<span
+                    ></span
+                  ></a>
+                </div>
+                <div class="d-flex purple-btn">
+                  <a href="#">Find out more<span></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======== 1.9 End of Guest section ========  -->
+      <!-- ======== 1.10 Team section ========  -->
+      <section class="Team">
+        <div class="container">
+          <h2>MEET OUR TEAM</h2>
+          <p class="py-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus
+            scelerisque eleifend donec pretium.
+          </p>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="team-card">
+                <img src="assets/images/index/profile-2.webp" alt="team" />
+                <h4 class="mt-3">Pamela Brown</h4>
+                <p>Business Coach</p>
+                <div class="d-flex">
+                  <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="team-card">
+                <img src="assets/images/index/profile-1.webp" alt="team" />
+                <h4 class="mt-3">William Garcia</h4>
+                <p>Epstein Island</p>
+                <div class="d-flex">
+                  <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="team-card">
+                <img src="assets/images/index/profile-4.webp" alt="team" />
+                <h4 class="mt-3">Elijah Jones</h4>
+                <p>Luang Prabang</p>
+                <div class="d-flex">
+                  <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="team-card">
+                <img src="assets/images/index/profile-3.webp" alt="team" />
+                <h4 class="mt-3">Andrew Tate</h4>
+                <p>Ushuaia, Argentina</p>
+                <div class="d-flex">
+                  <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======== 1.10 End of Team section ========  -->
+      <!-- ======== 1.11 Review section ========  -->
+      <section class="Review">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="content">
+                <h2>SOME REVIEW FROM OUR LISTNERS</h2>
+                <p class="my-4 pb-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Sapien nec sagittis aliquam malesuada.
+                </p>
+              </div>
+              <div class="main-img">
+                <div class="review-img">
+                  <img src="assets/images/index/numbers.webp" alt="number" />
+                </div>
+                <div class="gradient-lines">
+                  <img
+                    src="assets/images/bg/single-gradient-line.webp"
+                    alt="style"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="Review-slider">
+                <div class="d-flex">
+                  <img src="assets/images/index/ceo.webp" alt="profile" />
+                  <h4 class="mt-3">Michael Brown</h4>
+                  <p>Founder</p>
+                  <div class="stars my-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <p class="mb-4">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum is simply dummy text of
+                    the printing and typesetting industry.
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <img src="assets/images/index/review-2.webp" alt="profile" />
+                  <h4 class="mt-3">Noah Miller</h4>
+                  <p>Manager</p>
+                  <div class="stars my-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <p class="mb-4">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum is simply dummy text of
+                    the printing and typesetting industry.
+                  </p>
+                </div>
+                <div class="d-flex">
+                  <img src="assets/images/index/review-3.webp" alt="profile" />
+                  <h4 class="mt-3">Mahoraga</h4>
+                  <p>Adaptation</p>
+                  <div class="stars my-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <p class="mb-4">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum is simply dummy text of
+                    the printing and typesetting industry.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======== 1.11 End of Review section ========  -->
+      <!-- ======== 1.12 Numbers section ========  -->
+      <section class="Numbers">
+        <div class="container">
+          <div class="row mic-bg">
+            <div class="col-lg-5 content">
+              <h2>WE ARE ALL IN NUMBERS</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Sapien nec sagittis aliquam malesuada.
+              </p>
+              <div class="d-flex gap-lg-3 gap-2">
+                <div class="d-flex pink-btn">
+                  <a href="#"
+                    ><i class="fa-solid fa-pen"></i> &nbsp; Register Now<span
+                    ></span
+                  ></a>
+                </div>
+                <div class="d-flex purple-btn">
+                  <a href="#">Find out more<span></span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                  <div class="Topic">
+                    <img src="assets/images/icon/mic.svg" alt="mic" />
+                    <h2><span class="counter" data-target="3000">0</span>+</h2>
+                    <h6>Podcast episodes Live</h6>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      sed do eiusmod.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="Topic">
+                    <img src="assets/images/icon/mic-2.svg" alt="mic" />
+                    <h2><span class="counter" data-target="700">0</span>M+</h2>
+                    <h6>Views around the world</h6>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      sed do eiusmod.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="Topic">
+                    <img src="assets/images/icon/podcast-2.svg" alt="podcast" />
+                    <h2><span class="counter" data-target="100">0</span>+</h2>
+                    <h6>Amazing Podcasters</h6>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      sed do eiusmod.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="Topic">
+                    <img src="assets/images/icon/star.svg" alt="star" />
+                    <h2><span class="counter" data-target="10">0</span>M+</h2>
+                    <h6>Global Subscribers</h6>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      sed do eiusmod.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======== 1.12 End of Numbers section ========  -->
+      <!-- ======== 1.13 Events section ========  -->
+      <section class="Events">
+        <div class="container">
+          <div class="content">
+            <h2>LATEST EVENTS</h2>
+            <p class="p-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Faucibus scelerisque eleifend donec pretium.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-lg-7 col-md-12">
+              <div class="d-flex">
+                <div class="bg-content">
+                  <p class="date">February 2, 2022</p>
+                  <h4 class="my-3">HOW TO BEAUTIFY YOURSELF ONLY AT HOME</h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer.
+                  </p>
+                  <div class="text-btn mt-3">
+                    <a href="#"
+                      >Read More <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+              <div class="d-flex">
+                <div class="bg-content-2">
+                  <p class="date">February 2, 2022</p>
+                  <h4 class="my-3">
+                    Platea Est Necelit Aliquet Quis Seme Aliquetat.
+                  </h4>
+                  <div class="text-btn">
+                    <a href="#"
+                      >Read More <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-3">
+                <div class="bg-content-2">
+                  <p class="date">February 2, 2022</p>
+                  <h4 class="my-3">
+                    Platea Est Necelit Aliquet Quis Seme Aliquetat.
+                  </h4>
+                  <div class="text-btn">
+                    <a href="#"
+                      >Read More <i class="fa-solid fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======== 1.13 End of Events section ========  -->
+      <!-- ======== 1.14 Subscribe-2 section ========  -->
+      <section class="Subscribe-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <h2>SUBSCRIBE US</h2>
+              <h6>On your favourite platforms:</h6>
+              <div class="icons">
+                <a href="#">
+                  <img src="assets/images/icon/podcast-3.svg" alt="podcast" />
+                  <img
+                    src="assets/images/icon/podcast.svg"
+                    class="podcast-hover"
+                    alt="podcast"
+                  />
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-apple"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-soundcloud"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-spotify"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+              <h6>Or Email newsletter:</h6>
+              <div class="email-content">
+                <input type="email" placeholder="Enter your mail" />
+                <div class="big-btn">
+                  <a href="#">Subscribe</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <img src="assets/images/bg/Union.webp" alt="style" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======== 1.14 End of Subscribe-2 section ========  -->
+      <!-- ======== 1.15 Footer section ========  -->
+      <footer class="Footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div>
+                <div class="mb-2">
+                  <a href="index.html">
+                    <img src="assets/images/footer-logo.svg" alt="logo" />
+                  </a>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt.
+                </p>
+                <div class="d-flex gap-md-3 gap-2">
+                  <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 p-3">
+              <div
+                class="d-flex justify-content-around flex-md-row flex-column"
+              >
+                <hr />
+                <div>
+                  <h6>Links</h6>
+                  <ul>
+                    <li>
+                      <a href="#">Home</a>
+                      <a href="#">Privacy policy</a>
+                    </li>
+                    <li>
+                      <a href="#">About</a>
+                      <a href="#">Terms & conditions</a>
+                    </li>
+                  </ul>
+                </div>
+                <hr />
+                <div>
+                  <h6>About</h6>
+                  <ul>
+                    <li>
+                      <a href="#">Story</a>
+                      <a href="#">Services</a>
+                    </li>
+                    <li>
+                      <a href="#">Our Team</a>
+                      <a href="#">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="d-flex justify-content-center align-items-center gap-4 flex-md-row flex-column"
+          >
+            <div>
+              <p class="footer-heading">We Are The Best:</p>
+            </div>
+            <div class="footer-imgs">
+              <img src="assets/images/icon/footer-img (3).svg" alt="awards" />
+              <img src="assets/images/icon/footer-img (2).svg" alt="awards" />
+              <img src="assets/images/icon/footer-img (1).svg" alt="awards" />
+            </div>
+          </div>
+          <div class="d-flex align-items-center justify-content-start mt-4">
+            <p>
+              Copyright © 2023 Advisor Guard By Evonicmedia. All Rights
+              Reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+      <!-- ======== 1.15 End of Footer section ========  -->
+      <div class="top-btn" id="top-btn">
+        <a href="#">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- bootstrap min javascript -->
+    <script src="assets/js/javascript-lib/bootstrap.min.js"></script>
+    <!-- j Query -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- slick slider js -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- main javascript -->
+    <script src="assets/js/custom.js"></script>
+    <!-- animation from javascript -->
+    <script src="assets/js/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 1500,
+      });
+    </script>
+  </body>
+</html>
